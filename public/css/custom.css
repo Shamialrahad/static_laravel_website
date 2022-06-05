@@ -1,0 +1,46 @@
+body{
+    font-family: 'Open Sans';
+}
+.brand-logo{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.parallax{
+    background-image: url("../images/banner.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topDiv{
+    margin-top:120px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 4%;
+}
+
+.half-width img{
+    width: 60%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.flexible-content{
+    display:flex;
+    margin-bottom: 100px;
+}
